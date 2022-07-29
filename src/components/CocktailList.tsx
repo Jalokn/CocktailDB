@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useGlobalContext } from "../context";
-import Cocktail from "./Cocktail";
-import Loading from "./Loading";
+import { useGlobalContext } from "context";
+import Cocktail from "components/Cocktail";
+import Loading from "components/Loading";
 
 const CocktailList = () => {
   const { cocktails, loading } = useGlobalContext();

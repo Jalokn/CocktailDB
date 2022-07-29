@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import Loading from "../components/Loading";
+import Loading from "components/Loading";
 const url = "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=";
 
 interface ICocktail {
